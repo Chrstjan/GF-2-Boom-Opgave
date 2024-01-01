@@ -29,4 +29,31 @@
 .join-community footer a {
   text-decoration: none;
   color: goldenrod;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0.2rem 1rem;
+  }
+
+  .footer-images .so-me {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+  }
+
+  .footer-images .footer-img img {
+    width: 100%;
+  }
+
+  .footer-images .so-me img {
+    width: 5vw;
+  }
+
+  .main-footer .join-community {
+    height: 100%;
+  }
 }

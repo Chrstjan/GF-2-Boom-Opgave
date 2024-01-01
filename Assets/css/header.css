@@ -45,3 +45,26 @@
 .main-nav ul li.burger-content {
   display: block;
 }
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .hamburger {
+    display: none;
+  }
+
+  .main-nav img {
+    padding-left: 1rem;
+    width: 4vw;
+  }
+
+  .main-nav ul {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 1rem;
+  }
+
+  .main-nav ul li {
+    display: block;
+  }
+}
