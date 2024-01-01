@@ -1,0 +1,28 @@
+.gallery {
+  position: relative;
+}
+
+.gallery header {
+  text-align: center;
+  color: goldenrod;
+}
+
+.gallery figure img {
+  width: 100%;
+  display: block;
+  cursor: pointer;
+}
+
+.modal-figure {
+  width: 100%;
+  border: 2px solid #000;
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.modal-figure img {
+  width: 100%;
+}
