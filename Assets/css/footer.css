@@ -31,6 +31,38 @@
   color: goldenrod;
   cursor: pointer;
 }
+/* Tablet */
+@media (min-width: 800px) {
+  .main-footer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    padding: 0.2rem 1rem;
+  }
+
+  .footer-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .footer-images .so-me {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .footer-images .footer-img img {
+    width: 100%;
+  }
+
+  .footer-images .so-me img {
+    width: 100%;
+  }
+
+  .main-footer .join-community {
+    height: 100%;
+  }
+}
 
 @media (min-width: 1200px) {
   .main-footer {
