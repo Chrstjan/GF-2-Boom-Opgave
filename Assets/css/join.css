@@ -1,0 +1,33 @@
+.join form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+
+.join form .form-fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: goldenrod;
+}
+
+.form-fieldset input {
+  width: 100%;
+}
+
+.join form fieldset:last-of-type {
+  border: 0;
+}
+
+.join form .btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.error-text {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}

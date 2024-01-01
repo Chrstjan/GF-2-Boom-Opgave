@@ -3,6 +3,7 @@ const formContainer = document.getElementById("join");
 const createForm = () => {
   const formElement = document.createElement("form");
   const formFieldset = document.createElement("fieldset");
+  formFieldset.classList.add("form-fieldset");
 
   //Helper functions
   const createFormLabel = (text, forInput) => {

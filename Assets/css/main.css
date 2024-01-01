@@ -3,6 +3,7 @@
 @import url(footer.css);
 @import url(animations.css);
 @import url(more.css);
+@import url(join.css);
 
 html {
   scroll-behavior: smooth;
