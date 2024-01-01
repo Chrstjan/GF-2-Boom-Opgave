@@ -1,0 +1,32 @@
+.main-footer {
+  background: #000;
+}
+
+.main-footer .footer-img img,
+.main-footer .so-me img {
+  width: 100%;
+  display: block;
+}
+
+.so-me {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+}
+
+.join-community header {
+  color: gold;
+}
+
+.join-community p {
+  color: #888;
+}
+
+.join-community footer {
+  text-align: right;
+}
+
+.join-community footer a {
+  text-decoration: none;
+  color: goldenrod;
+}

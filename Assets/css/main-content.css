@@ -1,0 +1,39 @@
+.hero-section .hero-img-01 img,
+.hero-section .hero-img-02 img,
+.about-speakers .speaker-figure img {
+  width: 100%;
+  display: block;
+}
+
+.speaker-figure figcaption footer {
+  text-align: right;
+}
+
+.speaker-figure figcaption footer a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.sound-vision header,
+.join header {
+  text-align: center;
+}
+
+.sound-vision header hgroup h2,
+.join header hgroup h2 {
+  margin: 0;
+  margin-bottom: 0.2rem;
+}
+
+.sound-vision header hgroup h2:first-of-type {
+  color: #888;
+}
+
+.sound-vision .boom-video {
+  width: 100%;
+}
+
+.join header hgroup h2:last-of-type {
+  color: #888;
+}

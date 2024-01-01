@@ -1,25 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                        <!--Different stylesheet for sections-->
-    <link rel="stylesheet" href="./Assets/css/main.css">
+    <!--Different stylesheet for sections-->
+    <link rel="stylesheet" href="./Assets/css/main.css" />
 
-                        <!--Google fonts & fontawesome icons-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!--Google fonts & fontawesome icons-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
 
-    <title>Html Boilerplate</title>
-</head>
-<body>
-    <header></header>
-    <main>
-        <section>
-            
+    <title>Boom Opgave</title>
+    <script src="./Assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="main-header">
+        <nav class="main-nav">
+          <img src="./Assets/images/Media/headphones.svg" />
+          <ul class="main-list">
+            <li><a href="#">Start</a></li>
+            <li><a href="#">More</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+          <div class="hamburger" id="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </header>
+      <main>
+        <section class="hero-section">
+          <figure class="hero-img-01">
+            <img src="./Assets/images/Media/BOOM-Teaser-01.jpg" />
+          </figure>
+          <figure class="hero-img-02">
+            <img src="./Assets/images/Media/BOOM-Teaser-More.jpg" />
+          </figure>
         </section>
-    </main>
-    <footer></footer>
-    <script src="./Assets/js/app.js"></script>
-</body>
+
+        <section class="about-speakers">
+          <!--Card One-->
+          <figure class="speaker-figure">
+            <img src="./Assets/images/Media/speaker.jpg" />
+            <figcaption>
+              <header><h2>About N3</h2></header>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a
+                molestias accusantium
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates optio, voluptatum ab nostrum sunt dolor quod enim
+                sapiente expedita fugiat a fugit rem quo cupiditate labore quia
+                quis veniam neque.
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Suscipit a illum et ipsam. Corrupti repellat, ipsa cumque id
+                debitis repellendus!
+              </p>
+              <footer>
+                <a href="#">Read more</a>
+              </footer>
+            </figcaption>
+          </figure>
+
+          <!--Card Two-->
+          <figure class="speaker-figure">
+            <img src="./Assets/images/Media/speaker-closeup.jpg" />
+            <figcaption>
+              <header><h2>This Month Offer</h2></header>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero a
+                molestias accusantium
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates optio, voluptatum ab nostrum sunt dolor quod enim
+                sapiente expedita fugiat a fugit rem quo cupiditate labore quia
+                quis veniam neque.
+              </p>
+
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Suscipit a illum et ipsam. Corrupti repellat, ipsa cumque id
+                debitis repellendus!
+              </p>
+              <footer>
+                <a href="#">Read more</a>
+              </footer>
+            </figcaption>
+          </figure>
+        </section>
+
+        <section class="sound-vision">
+          <header>
+            <hgroup>
+              <h2>Sound'n</h2>
+              <h2>Vision</h2>
+            </hgroup>
+          </header>
+
+          <video autoplay="true" class="boom-video">
+            <source src="./Assets/images/Media/Speaker-Media.mp4" />
+          </video>
+        </section>
+
+        <section class="join">
+          <header>
+            <hgroup>
+              <h2>Join</h2>
+              <h2>Community</h2>
+            </hgroup>
+          </header>
+        </section>
+      </main>
+      <footer class="main-footer">
+        <figure class="footer-img">
+          <img src="./Assets/images/Uploads/Tongue-Girl-01.jpg" />
+        </figure>
+
+        <figure class="so-me">
+          <img src="./Assets/images/Media/facebook.svg" />
+          <img src="./Assets/images/Media/instagram.svg" />
+          <img src="./Assets/images/Media/twitter.svg" />
+          <img src="./Assets/images/Media/youtube.svg" />
+        </figure>
+
+        <article class="join-community">
+          <header><h3>Join and Gain</h3></header>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus aliquam laudantium aliquid animi, quos accusantium
+            quidem magnam libero sint nemo architecto, sunt maxime, quo nobis
+            corporis minima magni mollitia pariatur!
+          </p>
+
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            accusamus reprehenderit quibusdam voluptatum alias blanditiis minima
+            expedita rerum fugiat, illum modi, atque repellat enim culpa labore
+            optio fugit, placeat quam?
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            debitis natus maxime sapiente dolorum recusandae deserunt laboriosam
+            sint id voluptates sit velit iusto ad qui, autem aliquam consectetur
+            non harum?
+          </p>
+
+          <footer>
+            <a href="#">Sign Up</a>
+          </footer>
+        </article>
+      </footer>
+    </div>
+  </body>
 </html>

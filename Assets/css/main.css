@@ -2,3 +2,20 @@
 @import url(main-content.css);
 @import url(footer.css);
 @import url(animations.css);
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.main-container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1400px;
+}

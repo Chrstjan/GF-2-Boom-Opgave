@@ -1,0 +1,47 @@
+.main-header {
+  background: #000;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav img {
+  width: 10vw;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main-nav ul li {
+  display: none;
+  list-style-type: none;
+}
+
+.main-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hamburger {
+  padding-right: 1rem;
+}
+
+.main-nav .hamburger .bar {
+  display: block;
+  margin: 3px 0;
+  background: #fff;
+  width: 20px;
+  height: 5px;
+}
+
+.main-nav ul li.burger-content {
+  display: block;
+}
